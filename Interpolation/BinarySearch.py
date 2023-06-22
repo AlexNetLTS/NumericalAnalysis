@@ -11,9 +11,10 @@ def sortedsearch(lst, x):
         if x > lst[mid]:
             return sortedsearch(lst[mid: ], x)
         else:
-            return sortedsearch(lst[: mid])
+            return sortedsearch(lst[: mid], x)
 
 
 if __name__ == '__main__':
     lst = [1, 2, 3]
     print(sortedsearch(lst, 2.5))
+    

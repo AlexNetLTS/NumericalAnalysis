@@ -28,3 +28,4 @@ if __name__ == '__main__':
     b = np.array([1, 2, 3])  # Right-hand side
     x = thomas(a.diagonal(-1), a.diagonal(0), a.diagonal(1), b)
     print("Thomas Algorithm Solution:", x)
+    
